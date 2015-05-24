@@ -1,14 +1,17 @@
 Package: MathJaxR
 Title: MathJax as an R-package
-Date: 2015-5-15
-Version: 0.1
+Date: 2015-5-23
+Version: 0.11
 Authors@R: c(
       person("Team", "MathJax", role = c("aut", "cph"), email = "info@mathjax.org"),
       person("Vincent", "Nijs", role = c("aut", "cre"), email = "radiant@rady.ucsd.edu")
     )
 Maintainer: Vincent Nijs <radiant@rady.ucsd.edu>
-Description: Provides local access to MathJax for off-line use
-Depends: R (>= 3.1.2)
+Description: Provide local access to MathJax for off-line use in Shiny apps.
+Depends:
+  R (>= 3.1.2)
+Imports:
+  shiny (>= 0.12)
 License: MIT + file LICENSE
 LazyData: true
-URL: http://www.mathjax.org/, https://github.com/vnijs/radiant_miniCRAN
+URL: http://www.mathjax.org/, https://github.com/vnijs/MathJaxR
